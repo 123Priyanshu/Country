@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="UTF 8">
+
+<head>
+  <title>Iceland</title>
+</head>
+
+<body>
+  <select id="hi" onChange="SelectRedirect()">
+    <option value="home">Select Country</option>
+    <option value="Ice">Iceland</option>
+    <option value="Ind">India</option>
+    <option value="Indo">Indonesia</option>
+    <option value="Iran">Iran</option>
+    <option value="Iraq">Iraq</option>
+    <option value="Ire">Ireland</option>
+    <option value="Ita">Italy</option>
+    <option value="Ivo">Ivory Coast</option>
+  </select>
+</body>
+<script>
+  function SelectRedirect() {
+    switch (document.getElementById('hi').value) {
+      case"home":  window.location.href = "website.html";
+            break;
+      case "Ice":
+        window.location.href = "Iceland.html";
+        break;
+      case "Ind": window.location.href = "India.html";
+        break;
+      case "Indo": window.location.href = "Indonesia.html";
+        break;
+      case "Iran": window.location.href = "Iran.html";
+        break;
+      case "Iraq": window.location.href = "Iraq.html";
+        break;
+        case "Ire": window.location.href = "Ireland.html";
+        break;
+      case "Ita": window.location.href = "Italy.html";
+        break;
+      case "Ivo": window.location.href = "Ivory-Coast.html";
+    break;
+
+
+    }
+  }
+</script>
+
+</html>

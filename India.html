@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="UTF 8">
+
+<head>
+    <title>India</title>
+    <style>
+        div {
+            width: 800px;
+            padding: 10px;
+            border: 5px solid gray;
+            margin: 0;
+        }
+    </style>
+</head>
+
+<body>
+
+    <select id="hi" onChange="SelectRedirect()">
+        <option value="home">Select Country</option>
+        <option value="Ice">Iceland</option>
+        <option value="Ind">India</option>
+        <option value="Indo">Indonesia</option>
+        <option value="Iran">Iran</option>
+        <option value="Iraq">Iraq</option>
+        <option value="Ire">Ireland</option>
+        <option value="Ita">Italy</option>
+        <option value="Ivo">Ivory Coast</option>
+    </select>
+    <h1>The Wonders of India</h1>
+    <img src="https://media.istockphoto.com/photos/taj-mahal-sunrise-picture-id155096944?b=1&k=20&m=155096944&s=170667a&w=0&h=tRXBwL73kuVdP_cwt3ZcfN4oc1wW7jJyl-JhZK3jMd4="
+        width="350" height="263" alt="TajMahl">
+    <div>India is made of many different wonders in the world. You can find so many things in India. The food of India
+        is
+        a whole differnt story. People from all over the world to see so many sigths in India. One of those sigths is
+        the Taj Mahal.
+        The Taj Mahal is a dome that is located in Agra, India. The dome is made up of ivory marble from top to bottom
+        and doesn't really have such a big lighting system as far as recent searches have been done. One reason why th
+        eTaj Mahal is visited is because of it's reason of building. The reason the Taj Mahal was built was because the
+        king, Shan Jahan, wanted his wife to be happy before she left the world. The second reason is because the Taj
+        Mahal is actually one of the seven wonders of the world.</div>
+</body>
+
+<script>
+    function SelectRedirect() {
+      switch (document.getElementById('hi').value) {
+        case"home":  window.location.href = "website.html";
+              break;
+        case "Ice":
+          window.location.href = "Iceland.html";
+          break;
+        case "Ind": window.location.href = "India.html";
+          break;
+        case "Indo": window.location.href = "Indonesia.html";
+          break;
+        case "Iran": window.location.href = "Iran.html";
+          break;
+        case "Iraq": window.location.href = "Iraq.html";
+          break;
+          case "Ire": window.location.href = "Ireland.html";
+          break;
+        case "Ita": window.location.href = "Italy.html";
+          break;
+        case "Ivo": window.location.href = "Ivory-Coast.html";
+      break;
+  
+  
+      }
+    }
+  </script>
+
+
+</html>
